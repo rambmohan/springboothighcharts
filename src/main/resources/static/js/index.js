@@ -57,7 +57,7 @@ $.ajax({
 	},
 	complete: function() {
            // Schedule the next request when the current one's complete
-           setInterval(sendRequest, 5000); // The interval set to 5 seconds
+           setInterval(sendRequest, 15000); // The interval set to 5 seconds
          }
 });
 
